@@ -4,9 +4,9 @@ import connect from 'react-redux';
 
 class AddPetForm extends React.Component {
     constructor(props) {
-        super()
+        super(props)
         this.state = {
-            pet: '',
+            pet: this.props.pet,
             name: '',
             age: ''
         }

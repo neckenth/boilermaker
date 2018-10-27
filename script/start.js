@@ -1,5 +1,5 @@
-const app = require('./index')
-const db = require('./db/db')
+const app = require('../server/index')
+const db = require('../server/db/db')
 const port = process.env.PORT || 3000;
 
 db.sync()

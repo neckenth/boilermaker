@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware } from 'redux';
-import userReducer from './reducers';
-import puppyReducer from './reducers';
-import kittenReducer from './reducers'
+import userReducer from '/reducers';
+import puppyReducer from '/reducers';
+import kittenReducer from '/reducers'
 import { combineReducers } from 'redux'
 import thunkMiddleware from 'redux-thunk';
 import { createLogger } from 'redux-logger';

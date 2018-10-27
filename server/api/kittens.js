@@ -1,4 +1,6 @@
 const router = require('express').Router()
+const Kittens = require('../db/models/kittens')
+
 //don't forget to require model here later
 
 router.get('/', async (req, res, next) => {
